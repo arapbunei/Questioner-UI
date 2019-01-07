@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Questioner - Post Questions</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+  <div class="main">
+    <!-- sidebar -->
+    <div class=" mobi-hide sidebar col-3 navbar-primary full-height">
+      <!-- logo -->
+      <div style="color: #e8491d;,font-weight: bold;">
+        <h1 class="highlight">Questioner</h1>
+      </div>
+      <!-- ./logo -->
+      <div class="sidebar-items">
+        <ul class="sidebar-items__nav nav column">
+          <li class="">
+            <a href="answers.html">
+
+                            <span class="sidebar-items__text">Questions</span>
+                        </a>
+          </li>
+
+          <li class="sidebar-items__nav--active">
+            <a class="active-text" href="ask.html">
+
+                            <span class="sidebar-items__text">Ask Question</span>
+                       </a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- ./sidebar -->
+    <div class="body-wrapper col-10 ">
+      <!-- navbar -->
+      <div class="navbar bg-white navbar-primary p-0 navbar-fixed-top">
+        <div class="container">
+
+          <div class="pull-right">
+            <ul class="nav">
+              <li>
+                <a href="index.html">Home</a>
+              </li>
+
+              <li><a href="index.html">
+                                        Log out
+                                    </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- ./navbar -->
+
+      <!-- list -->
+      <div class="clearfix"></div>
+      <div class="main-wrapper">
+        <div class="container">
+          <div class="col-6">
+            <div class="panel bg-white">
+              <div class="panel__heading">
+                <div class="mega-text hatch text-primary">
+                  Ask a question
+                </div>
+              </div>
+              <div class="panel__body m-20">
+                <!-- question -->
+                <form class="form-ask">
+                  <div class="">
+                    <label>Title</label>
+                    <input class="stretchRight input-control" type='text' placeholder="Be specific as you post you question">
+                  </div>
+
+                  <div class="">
+                    <label>Body</label>
+                    <textarea class="stretchRight input-control" placeholder="Please enter question body here..."></textarea>
+
+                  </div>
+
+                  <div class="">
+                    <button class="floating pull-left btn btn-primary bg-orange p-15 btn-block">
+                                            Post Your Question
+                                        </button>
+                  </div>
+                </form>
+                <!-- ./question -->
+
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="panel">
+              <span class="mega-text">&nbsp;</span>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ./list -->
+    </div>
+
+  </div>
+</body>
+
+<script src="./js/main.js"></script>
+
+</html>
